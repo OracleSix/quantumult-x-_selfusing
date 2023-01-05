@@ -6,6 +6,7 @@ var obj = JSON.parse(body);
 var data = obj.data ;
 data.isNewUser = "0" ;
 data.vipmAutoPayUser = "1" ;
+data.svipAutoPayUser = "1" ;
 
 body = JSON.stringify(obj);
 $done(body);
